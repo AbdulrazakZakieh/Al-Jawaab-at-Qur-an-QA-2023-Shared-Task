@@ -3,7 +3,7 @@ Related published paper can be found here:
 https://aclanthology.org/2023.arabicnlp-1.82/
 
 Cite it as follows:
-'''
+```
 @inproceedings{zekiye-amroush-2023-al,
     title = "Al-Jawaab at Qur{'}an {QA} 2023 Shared Task: Exploring Embeddings and {GPT} Models for Passage Retrieval and Reading Comprehension",
     author = "Zekiye, Abdulrezzak  and
@@ -31,7 +31,8 @@ Cite it as follows:
     doi = "10.18653/v1/2023.arabicnlp-1.82",
     pages = "743--747",
 }
-'''
+```
+
 # Readme for Task A and Task B
 
 This repository contains two Python Notebooks for performing natural language processing tasks on Arabic text using OpenAI's GPT-4 model and embedding vectors. Each script has its own specific functionality and requirements. Below, you'll find a brief description of each script and how to use them. Codes to evaluate the submissions and datasets can be found from the official competition website (https://sites.google.com/view/quran-qa-2023).
