@@ -1,6 +1,41 @@
+# Published Paper
+Related published paper can be found here:
+https://aclanthology.org/2023.arabicnlp-1.82/
+
+Cite it as follows:
+@inproceedings{zekiye-amroush-2023-al,
+    title = "Al-Jawaab at Qur{'}an {QA} 2023 Shared Task: Exploring Embeddings and {GPT} Models for Passage Retrieval and Reading Comprehension",
+    author = "Zekiye, Abdulrezzak  and
+      Amroush, Fadi",
+    editor = "Sawaf, Hassan  and
+      El-Beltagy, Samhaa  and
+      Zaghouani, Wajdi  and
+      Magdy, Walid  and
+      Abdelali, Ahmed  and
+      Tomeh, Nadi  and
+      Abu Farha, Ibrahim  and
+      Habash, Nizar  and
+      Khalifa, Salam  and
+      Keleg, Amr  and
+      Haddad, Hatem  and
+      Zitouni, Imed  and
+      Mrini, Khalil  and
+      Almatham, Rawan",
+    booktitle = "Proceedings of ArabicNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.arabicnlp-1.82",
+    doi = "10.18653/v1/2023.arabicnlp-1.82",
+    pages = "743--747",
+    abstract = "This paper introduces a comprehensive system designed to address two natural language processing tasks: Passage Retrieval (Task A) and Reading Comprehension (Task B), applied to datasets related to the Holy Qur{'}an. Task A was treated as a measurement of a textual similarity problem where the system leverages OpenAI{'}s {``}text-embedding-ada-002{''} embedding model to transform textual content into numerical representations, with cosine similarity serving as the proximity metric. Task B focuses on the extraction of answers from Qur{'}anic passages, employing the Generative Pre-trained Transformer-4 (GPT-4) language model. In Task A, the system is evaluated using the Mean Average Precision (MAP) metric, achieving MAP scores of 0.109438 and 0.06426543057 on the development and test datasets with an optimal similarity threshold set at 0.85. Task B evaluation employs partial Average Precision (pAP), where our system surpasses a baseline whole-passage retriever with pAP scores of 0.470 and 0.5393130538 on the development and test datasets, respectively.",
+}
 # Readme for Task A and Task B
 
-This repository contains two Python Notebooks for performing natural language processing tasks on Arabic text using OpenAI's GPT-4 model and embedding vectors. Each script has its own specific functionality and requirements. Below, you'll find a brief description of each script and how to use them.
+This repository contains two Python Notebooks for performing natural language processing tasks on Arabic text using OpenAI's GPT-4 model and embedding vectors. Each script has its own specific functionality and requirements. Below, you'll find a brief description of each script and how to use them. Codes to evaluate the submissions and datasets can be found from the official competition website (https://sites.google.com/view/quran-qa-2023).
+
+**We achieved as the second place in Task B.**
 
 Note: The code is not optimal and there might be some fractions that are not used or libraries which are imported but not used as well.
 
