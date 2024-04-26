@@ -1,6 +1,6 @@
 # Readme for Task A and Task B
 
-This repository contains two Python scripts for performing natural language processing tasks on Arabic text using OpenAI's GPT-4 model and embedding vectors. Each script has its own specific functionality and requirements. Below, you'll find a brief description of each script and how to use them.
+This repository contains two Python Notebooks for performing natural language processing tasks on Arabic text using OpenAI's GPT-4 model and embedding vectors. Each script has its own specific functionality and requirements. Below, you'll find a brief description of each script and how to use them.
 
 Note: The code is not optimal and there might be some fractions that are not used or libraries which are imported but not used as well.
 
